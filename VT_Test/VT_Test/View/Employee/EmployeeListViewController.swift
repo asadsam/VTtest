@@ -70,7 +70,7 @@ extension EmployeeListViewController:UITableViewDataSource{
                 .compactMap { $0 }
                 .joined(separator: " ")
             
-            cell.m_subTitleLabel.text = employee.lastName
+            cell.m_subTitleLabel.text = employee.jobtitle
             
             let isoDate = employee.createdAt ?? "" // "2020-01-22T11:22:00+0000"
             let dateFormatter = DateFormatter()

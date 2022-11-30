@@ -9,6 +9,22 @@
 /* Begin PBXBuildFile section */
 		C337BFF82934C3FB00AE8393 /* RoomListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C337BFF72934C3FB00AE8393 /* RoomListViewModel.swift */; };
 		C337BFFA2934CD2A00AE8393 /* RoomWebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C337BFF92934CD2A00AE8393 /* RoomWebServiceManager.swift */; };
+		C337BFFD2935E2F300AE8393 /* EmployeeListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F84A1BBE2933E29300A42BD3 /* EmployeeListViewController.xib */; };
+		C337BFFE2935E2F600AE8393 /* EmployeeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A1BBD2933E29300A42BD3 /* EmployeeListViewController.swift */; };
+		C337BFFF2937345600AE8393 /* WebServiceFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A1BD32933F18D00A42BD3 /* WebServiceFactory.swift */; };
+		C337C0002937347100AE8393 /* EmployeeListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A1BCE2933E4F300A42BD3 /* EmployeeListViewModel.swift */; };
+		C337C0022937352A00AE8393 /* EmpWebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A1BD02933E69A00A42BD3 /* EmpWebServiceManager.swift */; };
+		C337C0032937353300AE8393 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A1BB52933D34C00A42BD3 /* Employee.swift */; };
+		C337C0042937355700AE8393 /* EmployeeListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A1BD52933F30F00A42BD3 /* EmployeeListTableViewCell.swift */; };
+		C337C0052937356100AE8393 /* EmployeeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A1BEF2935152000A42BD3 /* EmployeeDetailsViewController.swift */; };
+		C337C0062937356600AE8393 /* WebserviceRequestResponseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A1BCB2933E43A00A42BD3 /* WebserviceRequestResponseManager.swift */; };
+		C337C0072937356C00AE8393 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A1BC82933E42300A42BD3 /* Constants.swift */; };
+		C337C0082937357400AE8393 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A1BC42933E40900A42BD3 /* Extensions.swift */; };
+		C337C0092937358600AE8393 /* UrlImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A1BDB2933F43400A42BD3 /* UrlImageLoader.swift */; };
+		C337C00A2937359300AE8393 /* EmployeeDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A1BF32935229300A42BD3 /* EmployeeDetailsTableViewCell.swift */; };
+		C337C00B293735A200AE8393 /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A1BC62933E41800A42BD3 /* Reach.swift */; };
+		C337C00C293735A800AE8393 /* ALLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A1BC22933E34900A42BD3 /* ALLoadingView.swift */; };
+		C337C01029374BC900AE8393 /* EmployeeListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C337C00F29374BC900AE8393 /* EmployeeListViewModelTests.swift */; };
 		F84A1B822933CD4700A42BD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A1B812933CD4700A42BD3 /* AppDelegate.swift */; };
 		F84A1B842933CD4700A42BD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A1B832933CD4700A42BD3 /* SceneDelegate.swift */; };
 		F84A1B862933CD4700A42BD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F84A1B852933CD4700A42BD3 /* ViewController.swift */; };
@@ -64,6 +80,7 @@
 /* Begin PBXFileReference section */
 		C337BFF72934C3FB00AE8393 /* RoomListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomListViewModel.swift; sourceTree = "<group>"; };
 		C337BFF92934CD2A00AE8393 /* RoomWebServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomWebServiceManager.swift; sourceTree = "<group>"; };
+		C337C00F29374BC900AE8393 /* EmployeeListViewModelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeListViewModelTests.swift; sourceTree = "<group>"; };
 		F84A1B7E2933CD4700A42BD3 /* VT_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VT_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F84A1B812933CD4700A42BD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F84A1B832933CD4700A42BD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -179,6 +196,7 @@
 		F84A1BA42933CD4900A42BD3 /* VT_TestUITests */ = {
 			isa = PBXGroup;
 			children = (
+				C337C00F29374BC900AE8393 /* EmployeeListViewModelTests.swift */,
 				F84A1BA52933CD4900A42BD3 /* VT_TestUITests.swift */,
 				F84A1BA72933CD4900A42BD3 /* VT_TestUITestsLaunchTests.swift */,
 			);
@@ -404,6 +422,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C337BFFD2935E2F300AE8393 /* EmployeeListViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -452,7 +471,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C337C0072937356C00AE8393 /* Constants.swift in Sources */,
+				C337C0042937355700AE8393 /* EmployeeListTableViewCell.swift in Sources */,
+				C337C0022937352A00AE8393 /* EmpWebServiceManager.swift in Sources */,
+				C337C00C293735A800AE8393 /* ALLoadingView.swift in Sources */,
+				C337C0052937356100AE8393 /* EmployeeDetailsViewController.swift in Sources */,
+				C337C0002937347100AE8393 /* EmployeeListViewModel.swift in Sources */,
+				C337C0032937353300AE8393 /* Employee.swift in Sources */,
+				C337C00B293735A200AE8393 /* Reach.swift in Sources */,
+				C337C0092937358600AE8393 /* UrlImageLoader.swift in Sources */,
+				C337C0082937357400AE8393 /* Extensions.swift in Sources */,
+				C337BFFF2937345600AE8393 /* WebServiceFactory.swift in Sources */,
 				F84A1B9C2933CD4800A42BD3 /* VT_TestTests.swift in Sources */,
+				C337C01029374BC900AE8393 /* EmployeeListViewModelTests.swift in Sources */,
+				C337BFFE2935E2F600AE8393 /* EmployeeListViewController.swift in Sources */,
+				C337C00A2937359300AE8393 /* EmployeeDetailsTableViewCell.swift in Sources */,
+				C337C0062937356600AE8393 /* WebserviceRequestResponseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

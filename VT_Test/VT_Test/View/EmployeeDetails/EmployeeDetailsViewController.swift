@@ -34,10 +34,14 @@ class EmployeeDetailsViewController: UIViewController {
         
         let f: String? = employee.firstName
         let l: String? = employee.lastName
-        
-        self.m_name.text = [f,l]
+        let fullname = [f,l]
             .compactMap { $0 }
             .joined(separator: " ")
+        
+        self.m_name.text = fullname
+        
+        m_imageView.accessibilityTraits = .image
+        m_imageView.accessibilityLabel = fullname
         
         if let imageURL = employee.avatar{
             self.m_imageView.download(from: URL(string: imageURL)!, placeholder: UIImage.init(named: "person-placeholder"))
